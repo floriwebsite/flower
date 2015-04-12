@@ -18,7 +18,7 @@ class IndexController extends Controller {
 		
 		if(session('user_type')==0){
 			//一般用户登入 模板类型0
-                   		$this->assign('type',0);
+                   	$this->assign('type',0);
       			$this->display();	
                    	}else if(session('user_type')==1){
                    		//花艺师登入登入 模板类型1
@@ -47,27 +47,33 @@ class IndexController extends Controller {
    	 //the login function of normal user and artist
    	 public function login(){
 
-   	 	$action_result 	=	array('flag' => 0);
-   	 	$type		=	I('post.type');
-   	 	$usrname	=	I('post.username');
-   	 	$password	=	I('post.password');
+   	 	$action_result 	    =	array('flag' => 0);
+   	 	$type		           =	I('post.type');
+   	 	$usrname	           =	I('post.username');
+   	 	$password	           =	I('post.password');
    	 	//登入的为一般用户
    	 	if($type		==	0){
-   	 		$User    =	M('user');
-   	 		$condition['username']		=	$username;
-   	 		$result				=	$User->where($condition)->find();
+   	 		$User                                            =	  M('user');
+   	 		$condition['user_name']	     =	   $username;
+                               $condition['user_type']             =         0;
+   	 		$result				                    =	$User->where($condition)->find();
    	 		//username not exist 
    	 		if(!$result){
    	 			$this->ajaxReturn($action_result);
    	 		}else{
-   	 			$condition['password']		=	sha1($password);
-   	 			$result 				=	$User->where($condition)->find();
+   	 			$condition['password']		              =	sha1($password);
+   	 			$result 				              =	$User->where($condition)->find();
    	 			//password error
    	 			if(!$result){
    	 				$action_result 		=	 array('flag' => 1);
    	 				$this->ajaxReturn($action_result);
    	 			}else{
-   	 				 $action_result 		=	 array('flag' => 2);
+   	 				 $action_result 		  =	 array('flag' => 2);
+                                                      $limit['user_name']  =   $username;
+                                                      $limit['password']     =   sha1($password);
+                                                      $User                          =   M('user');
+                                                      $answer                     =   $User->where['limit']->find();
+                                                      session('user_id',$answer['user_id']);
    	 				 session('user_type',0);
    	 				 session('username',$username);
    	 				 cookie('user_type',0);
@@ -79,21 +85,27 @@ class IndexController extends Controller {
    	 	//登入的为花艺师
    	 	}else if($type		==	1){
 
-   	   	 	$User    			=	M('artist');
-   	 		$condition['name']		=	$username;
-   	 		$result				=	$User->where($condition)->find();
+   	   	 	$User    			                =	M('user');
+   	 		$condition['user_name']	  =	$username;  
+                                 $condition['user_type']            =        1;
+   	 		$result				                =	$User->where($condition)->find();
    	 		//username not exist 
    	 		if(!$result){
    	 			$this->ajaxReturn($action_result);
    	 		}else{
    	 			$condition['password']		=	sha1($password);
-   	 			$result 				=	$User->where($condition)->find();
+   	 			$result 				              =	$User->where($condition)->find();
    	 			//password error
    	 			if(!$result){
    	 				$action_result 		=	 array('flag' => 1);
    	 				$this->ajaxReturn($action_result);
    	 			}else{
    	 				 $action_result 		=	 array('flag' => 2);
+                                                      $limit['user_name']  =   $username;
+                                                      $limit['password']     =   sha1($password);
+                                                      $User                         =   M('user');
+                                                      $answer                     =   $User->where['limit']->find();
+                                                      session('user_id',$answer['user_id']);
    	 				 session('user_type',1);
    	 				 session('username',$username);
    	 				 cookie('user_type',1);
@@ -121,36 +133,42 @@ class IndexController extends Controller {
    	 
    	  //normal user register
    	 public function userRegister(){
-   	 	$action_result 	=	array('flag' => 0);
-   	 	$code 	     	=	I('post.code');
-   	 	$user_name 	=	I('post.user_name');
-   	 	$phone		=	I('post.phone');
-   	 	$password 	=	I('post.password');
+   	 	$action_result    =	array('flag' => 0);
+   	 	$code 	       =	I('post.code');
+   	 	$user_name      =	I('post.user_name');
+   	 	$phone	       =	I('post.phone');
+   	 	$password 	       =	I('post.password');
 
-   	 	if($code   	!=	session('id_code')){
+   	 	if($code        	!=	session('id_code')){
    	 		session('id_code',null);
-   	 		$action_result 	=	array('flag' => 1);
+   	 		$action_result 	       =	array('flag' => 1);
    	 		$this->ajaxReturn($action_result);
    	 	}else{
-   	 		$User 				=	M('user');
-   	 		$condition['user_name']	=	$user_name;
-   	 		$result				=	$User->where($condition)->find();
+   	 		$User 				              =	M('user');
+   	 		$condition['user_name']	              =	$user_name;
+   	 		$result				              =	$User->where($condition)->find();
    	 		if($result){
-   	 			$action_result 		=	array('flag' => 0);
+   	 			$action_result 		               =	array('flag' => 0);
    	 			$this->ajaxReturn($action_result);
    	 		}else{
-   	 			$map['phone']		=	$phone;
-   	 			$result			=	$User->where($map)->find();
-   	 			if($result){
+   	 			
+   	 			if(session('phone')!=$phone){
+                                                    $session('phone',null);
    	 				$action_result 		=	array('flag' => 2);
    	 				$this->ajaxReturn($action_result);
    	 			}else{
    	 				$data['user_name']	=	$user_name;
    	 				$data['password']	=	sha1($password);
    	 				$data['phone']		=	$phone;
-   	 				$result 			=	$User->data($data)->add();
+                                                      $data['user_type']         =         0;
+   	 				$result 			      =	$User->data($data)->add();
    	 				if($result){
-   	 					$action_result 		=	array('flag' => 3);
+   	 					$action_result 	        =	array('flag' => 3);
+                                                               $limit['user_name']  =   $user_name;
+                                                               $limit['password']     =   sha1($password);
+                                                               $User                         =   M('user');
+                                                               $answer                     =   $User->where['limit']->find();
+                                                               session('user_id',$answer['user_id']);
    	 					session('user_type',0);
    	 				 	session('username',$user_name);
    	 				 	cookie('user_type',0);
@@ -168,32 +186,39 @@ class IndexController extends Controller {
    	 
    	  //aritist user register
    	 public function artistRegister(){
-   	 	$action_result 	=	array('flag' => 0);
-   	 	$code 	     	=	I('post.code');
-   	 	$city 		=	I('post.city');
-   	 	$password 	=	I('post.password');
-   	 	$name 		=	I('post.name');
-   	 	$phone		=	I('post.phone');
-   	 	if($code   	!=	session('id_code')){
+   	 	$action_result 	             =	array('flag' => 0);
+   	 	$code 	     	            =	I('post.code');
+   	 	$city 		                      =	I('post.city');
+   	 	$password 	                      =	I('post.password');
+   	 	$name 		            =	I('post.name');
+   	 	$phone		            =	I('post.phone');
+   	 	if($code   	                       !=    	session('id_code')){
    	 		session('id_code',null);
    	 		$action_result 	=	array('flag' => 1);
    	 		$this->ajaxReturn($action_result);
    	 	}else{
-   	 		$User 			=	M('artist');
-   	 		$condition['phone']	=	$phone;	
-   	 		$result			=	$User->where($condition)->find();
-   	 		if($result){
+   	 		$User 			              =	M('user');
+   	 		
+   	 		if(session('phone')!=$phone){
+                                          $session('phone',null);
    	 			$this->ajaxReturn($action_result);
    	 		}else{
-   	 			$data['name']		=	$name;
+   	 			$data['user_name']	=	$name;
    	 			$data['phone']		=	$phone;
-   	 			$data['city']		=	$city;
+   	 			$data['city']		       =	$city;
    	 			$data['password']	=	sha1($password);
-   	 			$result 			=	$User->data($data)->add();
+                                          $data['user_type']   =    1;
+   	 			$result 			       =	$User->data($data)->add();
    	 			if($result){
-   	 				$action_result	=	array('flag' => 2);
+   	 				 $action_result	         =	array('flag' => 2);
+                                                      $limit['user_name']  =   $user_name;
+                                                      $limit['password']     =   sha1($password);
+                                                      $User                         =   M('user');
+                                                      $answer                     =   $User->where['limit']->find();
+                                                      session('user_id',$answer['user_id']);
    	 				 session('user_type',1);
    	 				 session('username',$name);
+                                                       
    	 				 cookie('user_type',1);
    	 				 cookie('username',$name);	
    	 				$this->ajaxReturn($action_result);	
@@ -207,14 +232,25 @@ class IndexController extends Controller {
    	
    	  //send identify code to the user phone 
    	   public function id_code(){
-   	 	$phone		=	I('post.phone');
-   	 	$id_code 	=	generate_code();
-   	 	session('id_code',$id_code);
-   	 	$message 	=	"[花艺生活]您的手机号为".$phone",登入验证密码为".$id_code."请保管验证码，勿告诉他人。";
-   	 	//调用接口
+   	 	$phone		                =	I('post.phone');
+   	 	$id_code 	                           =	generate_code();
+                     $User                                     =   M('user');
+                     $condition['phone']             =   $phone;  
+                     $result                                    = $User->where($condition)->find();
+                     if($result){
+                                 $action_result             = array('flag' => 0);
+                                 $this->ajaxReturn($action_result);
+                     }else{
+                                 session('phone',$phone);
+                                 session('id_code',$id_code);
+                                 $message    =  "[花艺生活]您的手机号为".$phone",登入验证密码为".$id_code."请保管验证码，勿告诉他人。";
+                                 //调用接口
 
 
-   	 	//发送短信
+                                 //发送短信
+                     }
+
+   	 	
 
    	 }
 
