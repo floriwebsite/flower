@@ -9,5 +9,7 @@ return array(
     'DB_PREFIX'             => '',    // 数据库表前缀
     'SHOW_PAGE_TRACE'=>true,
     'DB_FIELDS_CACHE'=>false,
-
+  'TMPL_PARSE_STRING'  =>array(
+     '__PUBLIC__' => '/flower/Public', // 更改默认的__PUBLIC__ 替换规则
+		),
 );
