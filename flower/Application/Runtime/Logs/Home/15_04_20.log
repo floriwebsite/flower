@@ -1,0 +1,63 @@
+[ 2015-04-20T00:05:36+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105766' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2015-04-20T00:05:43+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'w3c' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0010s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark01') [ RunTime:0.0558s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('w3c','2ffdde7cba519de544b1695554aad855a897f0a1','15105105766','0') [ RunTime:0.0329s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'w3c' AND `password` = '2ffdde7cba519de544b1695554aad855a897f0a1' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-04-20T00:07:30+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105205777' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2015-04-20T00:07:38+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'wesdzf' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark01') [ RunTime:0.0732s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('wesdzf','f37e4088a61274141b9307f91a5bdcd15cb7bafe','15105205777','0') [ RunTime:0.0330s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'wesdzf' AND `password` = 'f37e4088a61274141b9307f91a5bdcd15cb7bafe' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-20T00:09:03+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15115105777' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000187s ]
+
+[ 2015-04-20T00:09:13+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '21313' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark01') [ RunTime:0.0616s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('21313','cd79480c7bc8fd44fa15d329d43c7bba29aff44b','15115105777','0') [ RunTime:0.0328s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '21313' AND `password` = 'cd79480c7bc8fd44fa15d329d43c7bba29aff44b' LIMIT 1   [ RunTime:0.0004s ]
+

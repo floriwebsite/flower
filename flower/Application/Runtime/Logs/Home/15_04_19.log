@@ -1,0 +1,1426 @@
+[ 2015-04-19T19:26:38+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-19T19:26:38+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-19T19:26:38+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-19T19:26:38+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-19T19:33:24+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 1 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-19T19:38:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-19T19:39:31+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-19T19:39:32+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T19:39:33+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T19:41:50+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-19T19:52:33+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T19:54:27+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T19:55:18+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '45d32291269df253d7270b616633c6c81b730f40' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-19T19:55:36+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '45d32291269df253d7270b616633c6c81b730f40' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T19:55:53+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = 'cde04cbab211a91377ef1018dfcce9de7406f676' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-19T19:56:03+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '18f4bfdd8e124389aa40c97b63ddd4121f406cde' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-04-19T19:56:12+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T19:56:28+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '0fcccdaeb3320bd884d6dccf7251e39e1a277fbc' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-19T19:56:44+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T19:56:48+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T19:57:41+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '3f1b9438da4be7fb9ec169bd922187149315de60' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-19T19:57:46+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'xxflower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-19T19:57:58+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-19T20:26:15+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T20:27:14+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-04-19T20:27:32+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '111' AND `user_type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '111' AND `user_type` = 1 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '111' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-04-19T20:27:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-19T20:30:17+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T20:30:18+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T20:30:25+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T20:30:26+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T20:33:18+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0006s ]
+SQL: INSERT INTO `error_message` (`error_page`) VALUES ('/var/www/html/flower') [ RunTime:0.0371s ]
+
+[ 2015-04-19T20:34:21+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`) VALUES ('/var/www/html/flower') [ RunTime:0.0467s ]
+
+[ 2015-04-19T20:36:49+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`) VALUES ('/var/www/html/flower') [ RunTime:0.0316s ]
+
+[ 2015-04-19T20:41:58+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`) VALUES ('/var/www/html/flower') [ RunTime:0.0402s ]
+
+[ 2015-04-19T20:42:47+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0006s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2015-04-19T20:43:53+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','12345') [ RunTime:0.0454s ]
+
+[ 2015-04-19T20:44:22+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','flower') [ RunTime:0.0323s ]
+
+[ 2015-04-19T20:45:17+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T20:46:07+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-19T20:46:07+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-19T20:46:07+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-19T20:46:07+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-19T20:47:12+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-19T20:47:12+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-19T20:47:12+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-19T20:47:12+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-19T20:47:39+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-19T20:47:39+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-19T20:47:39+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-19T20:47:39+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-19T20:55:28+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/jkjk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+ERR: 非法操作:jkjk
+
+[ 2015-04-19T20:55:45+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/jkjk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+ERR: 非法操作:jkjk
+
+[ 2015-04-19T21:03:05+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+
+[ 2015-04-19T21:03:19+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+
+[ 2015-04-19T21:05:41+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+
+[ 2015-04-19T21:09:32+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-19T21:09:53+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+NOTIC: [8192] Function ereg() is deprecated /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 274 行.
+
+[ 2015-04-19T21:11:26+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+NOTIC: [8192] Function ereg() is deprecated /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 274 行.
+
+[ 2015-04-19T21:13:52+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+NOTIC: [8192] Function ereg() is deprecated /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 275 行.
+
+[ 2015-04-19T21:14:00+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+NOTIC: [8192] Function ereg() is deprecated /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 275 行.
+
+[ 2015-04-19T21:14:23+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+NOTIC: [8192] Function ereg() is deprecated /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 275 行.
+
+[ 2015-04-19T21:19:09+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+NOTIC: [8192] Function ereg() is deprecated /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 275 行.
+
+[ 2015-04-19T21:20:15+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13559855005' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2015-04-19T21:20:29+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+
+[ 2015-04-19T21:21:24+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13559855005' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000219s ]
+
+[ 2015-04-19T21:25:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+
+[ 2015-04-19T21:26:48+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13559855005' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-04-19T21:27:02+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855005','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0459s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 238 行.
+
+[ 2015-04-19T21:28:31+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13559855005' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `phone` = \'13559855005\' LIMIT 1  ') [ RunTime:0.0818s ]
+
+[ 2015-04-19T21:28:46+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13559855001' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `phone` = \'13559855001\' LIMIT 1  ') [ RunTime:0.0452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-04-19T21:28:47+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13559855001' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0007s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `phone` = \'13559855001\' LIMIT 1  ') [ RunTime:0.0401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-04-19T21:28:55+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0578s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 238 行.
+
+[ 2015-04-19T21:31:17+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0544s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 238 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0007s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist' cannot be null
+
+[ 2015-04-19T21:33:36+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0343s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 238 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0004s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
+
+[ 2015-04-19T21:36:09+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0384s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 238 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0005s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
+
+[ 2015-04-19T21:37:48+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0357s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0006s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark') [ RunTime:0.0547s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 239 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0003s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
+
+[ 2015-04-19T21:38:32+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0457s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 239 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0009s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark1') [ RunTime:0.0313s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
+
+[ 2015-04-19T21:39:23+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0509s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 239 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0004s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist' cannot be null
+
+[ 2015-04-19T21:39:24+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0411s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 239 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0006s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist' cannot be null
+
+[ 2015-04-19T21:40:16+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0482s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 239 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0006s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark2') [ RunTime:0.0309s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist' cannot be null
+
+[ 2015-04-19T21:41:09+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0321s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 239 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0006s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark3') [ RunTime:0.0307s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist' cannot be null
+
+[ 2015-04-19T21:42:26+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0379s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 239 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0005s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist' cannot be null
+
+[ 2015-04-19T21:42:55+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0340s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 239 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0008s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist' cannot be null
+
+[ 2015-04-19T21:44:43+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0585s ]
+NOTIC: [8] Undefined variable: user_name /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 239 行.
+SQL: SELECT * FROM `user` WHERE `user_name` = null AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0009s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = null AND `password` = \'807dbc6d05b26b57f20df280f00e517c87e96d0f\' LIMIT 1  ') [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0010s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist' cannot be null
+
+[ 2015-04-19T21:45:31+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13559855001','成都','807dbc6d05b26b57f20df280f00e517c87e96d0f','1') [ RunTime:0.0313s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '' AND `password` = '807dbc6d05b26b57f20df280f00e517c87e96d0f' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'\' AND `password` = \'807dbc6d05b26b57f20df280f00e517c87e96d0f\' LIMIT 1  ') [ RunTime:0.0315s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0007s ]
+SQL: INSERT INTO `service_area` (`artist`,`area`) VALUES ('3',' ') [ RunTime:0.0324s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark4') [ RunTime:0.0331s ]
+SQL: SHOW COLUMNS FROM `personal_data` [ RunTime:0.0008s ]
+SQL: INSERT INTO `personal_data` (`artist`,`content`) VALUES ('3',' ') [ RunTime:0.0325s ]
+
+[ 2015-04-19T21:46:08+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+
+[ 2015-04-19T21:46:38+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13550056273' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `phone` = \'13550056273\' LIMIT 1  ') [ RunTime:0.0392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000169s ]
+
+[ 2015-04-19T21:46:55+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','13550056273','成都','e8248cbe79a288ffec75d7300ad2e07172f487f6','1') [ RunTime:0.0288s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '' AND `password` = 'e8248cbe79a288ffec75d7300ad2e07172f487f6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'\' AND `password` = \'e8248cbe79a288ffec75d7300ad2e07172f487f6\' LIMIT 1  ') [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0007s ]
+SQL: INSERT INTO `service_area` (`artist`,`area`) VALUES ('18',' ') [ RunTime:0.0323s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark4') [ RunTime:0.0441s ]
+SQL: SHOW COLUMNS FROM `personal_data` [ RunTime:0.0006s ]
+SQL: INSERT INTO `personal_data` (`artist`,`content`) VALUES ('18',' ') [ RunTime:0.0324s ]
+
+[ 2015-04-19T21:49:47+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '18328455337' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0006s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `phone` = \'18328455337\' LIMIT 1  ') [ RunTime:0.0299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2015-04-19T21:49:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','18328455337','成都','e8248cbe79a288ffec75d7300ad2e07172f487f6','1') [ RunTime:0.0411s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '' AND `password` = 'e8248cbe79a288ffec75d7300ad2e07172f487f6' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'\' AND `password` = \'e8248cbe79a288ffec75d7300ad2e07172f487f6\' LIMIT 1  ') [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0009s ]
+SQL: INSERT INTO `service_area` (`artist`,`area`) VALUES ('18',' ') [ RunTime:0.0828s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark4') [ RunTime:0.0601s ]
+SQL: SHOW COLUMNS FROM `personal_data` [ RunTime:0.0009s ]
+SQL: INSERT INTO `personal_data` (`artist`,`content`) VALUES ('18',' ') [ RunTime:0.0888s ]
+
+[ 2015-04-19T21:55:27+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `user_type` = 0 AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'flower' AND `password` = '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-19T21:59:49+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: session /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 227 行.
+
+[ 2015-04-19T21:59:53+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105132885' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0007s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `phone` = \'15105132885\' LIMIT 1  ') [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000205s ]
+
+[ 2015-04-19T22:00:04+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','15105132885','成都','603e6907398c7e74e25c0ae8ec3a03ffac7c9bb4','1') [ RunTime:0.0329s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '' AND `password` = '603e6907398c7e74e25c0ae8ec3a03ffac7c9bb4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'\' AND `password` = \'603e6907398c7e74e25c0ae8ec3a03ffac7c9bb4\' LIMIT 1  ') [ RunTime:0.0322s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0007s ]
+SQL: INSERT INTO `service_area` (`artist`,`area`) VALUES ('20',' ') [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `personal_data` [ RunTime:0.0009s ]
+SQL: INSERT INTO `personal_data` (`artist`,`content`) VALUES ('20',' ') [ RunTime:0.0321s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','d') [ RunTime:0.0331s ]
+
+[ 2015-04-19T22:00:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-19T22:00:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-19T22:00:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-19T22:00:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-19T22:01:21+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: session /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 227 行.
+
+[ 2015-04-19T22:01:24+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105017337' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0007s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `phone` = \'15105017337\' LIMIT 1  ') [ RunTime:0.0374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2015-04-19T22:01:36+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','15105017337','成都','f638e2789006da9bb337fd5689e37a265a70f359','1') [ RunTime:0.0332s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','d') [ RunTime:0.0322s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '' AND `password` = 'f638e2789006da9bb337fd5689e37a265a70f359' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'\' AND `password` = \'f638e2789006da9bb337fd5689e37a265a70f359\' LIMIT 1  ') [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0006s ]
+SQL: INSERT INTO `service_area` (`artist`,`area`) VALUES ('21',' ') [ RunTime:0.0325s ]
+SQL: SHOW COLUMNS FROM `personal_data` [ RunTime:0.0009s ]
+SQL: INSERT INTO `personal_data` (`artist`,`content`) VALUES ('21',' ') [ RunTime:0.0322s ]
+
+[ 2015-04-19T22:02:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15133551221' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `phone` = \'15133551221\' LIMIT 1  ') [ RunTime:0.0319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2015-04-19T22:03:07+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0006s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','d') [ RunTime:0.0862s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('','15133551221','成都','3495ff69d34671d1e15b33a63c1379fdedd3a32a','1') [ RunTime:0.0900s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '' AND `password` = '3495ff69d34671d1e15b33a63c1379fdedd3a32a' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'\' AND `password` = \'3495ff69d34671d1e15b33a63c1379fdedd3a32a\' LIMIT 1  ') [ RunTime:0.0753s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0007s ]
+SQL: INSERT INTO `service_area` (`artist`,`area`) VALUES ('22',' ') [ RunTime:0.0880s ]
+SQL: SHOW COLUMNS FROM `personal_data` [ RunTime:0.0008s ]
+SQL: INSERT INTO `personal_data` (`artist`,`content`) VALUES ('22',' ') [ RunTime:0.0326s ]
+
+[ 2015-04-19T22:03:51+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-19T22:03:51+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-19T22:03:51+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-19T22:03:51+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-19T22:04:11+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15133221444' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `phone` = \'15133221444\' LIMIT 1  ') [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000170s ]
+
+[ 2015-04-19T22:04:20+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0006s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','下下d') [ RunTime:0.0357s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('下下','15133221444','成都','70374248fd7129088fef42b8f568443f6dce3a48','1') [ RunTime:0.0441s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '下下' AND `password` = '70374248fd7129088fef42b8f568443f6dce3a48' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'下下\' AND `password` = \'70374248fd7129088fef42b8f568443f6dce3a48\' LIMIT 1  ') [ RunTime:0.0322s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0009s ]
+SQL: INSERT INTO `service_area` (`artist`,`area`) VALUES ('23',' ') [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `personal_data` [ RunTime:0.0007s ]
+SQL: INSERT INTO `personal_data` (`artist`,`content`) VALUES ('23',' ') [ RunTime:0.0324s ]
+
+[ 2015-04-19T22:04:23+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0009s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','下下d') [ RunTime:0.0318s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('下下','15133221444','成都','70374248fd7129088fef42b8f568443f6dce3a48','1') [ RunTime:0.0329s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '下下' AND `password` = '70374248fd7129088fef42b8f568443f6dce3a48' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'下下\' AND `password` = \'70374248fd7129088fef42b8f568443f6dce3a48\' LIMIT 1  ') [ RunTime:0.0324s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0006s ]
+SQL: INSERT INTO `service_area` (`artist`,`area`) VALUES ('23',' ') [ RunTime:0.0325s ]
+SQL: SHOW COLUMNS FROM `personal_data` [ RunTime:0.0009s ]
+SQL: INSERT INTO `personal_data` (`artist`,`content`) VALUES ('23',' ') [ RunTime:0.0322s ]
+
+[ 2015-04-19T22:04:37+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/artistRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','下下d') [ RunTime:0.0369s ]
+SQL: INSERT INTO `user` (`user_name`,`phone`,`city`,`password`,`user_type`) VALUES ('下下','15133221444','成都','70374248fd7129088fef42b8f568443f6dce3a48','1') [ RunTime:0.0330s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '下下' AND `password` = '70374248fd7129088fef42b8f568443f6dce3a48' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'下下\' AND `password` = \'70374248fd7129088fef42b8f568443f6dce3a48\' LIMIT 1  ') [ RunTime:0.0322s ]
+SQL: SHOW COLUMNS FROM `service_area` [ RunTime:0.0006s ]
+SQL: INSERT INTO `service_area` (`artist`,`area`) VALUES ('23',' ') [ RunTime:0.0325s ]
+SQL: SHOW COLUMNS FROM `personal_data` [ RunTime:0.0005s ]
+SQL: INSERT INTO `personal_data` (`artist`,`content`) VALUES ('23',' ') [ RunTime:0.0546s ]
+
+[ 2015-04-19T22:08:08+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2015-04-19T22:08:08+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2015-04-19T22:08:08+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/respond.js
+ERR: 非法操作:js
+
+[ 2015-04-19T22:08:08+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2015-04-19T22:15:19+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+
+[ 2015-04-19T22:15:43+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+
+[ 2015-04-19T22:16:23+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+
+[ 2015-04-19T22:16:54+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+
+[ 2015-04-19T22:18:16+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+
+[ 2015-04-19T22:18:40+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105018444' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2015-04-19T22:19:05+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105018444' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2015-04-19T22:19:32+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105018444' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2015-04-19T22:19:59+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105018444' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2015-04-19T22:20:39+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105018444' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2015-04-19T22:21:55+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13804561234' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2015-04-19T22:22:50+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '13804561234' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2015-04-19T22:23:33+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105777' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2015-04-19T22:25:22+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+
+[ 2015-04-19T22:25:25+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+
+[ 2015-04-19T22:25:34+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15150186111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-04-19T22:25:35+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15150186111' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000120s ]
+
+[ 2015-04-19T22:28:13+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105776' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000177s ]
+
+[ 2015-04-19T22:28:22+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-19T22:28:27+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-19T22:29:48+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-04-19T23:00:14+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'wwwwwwwwwwww' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: session /var/www/html/flower/Application/Home/Controller/IndexController.class.php 第 178 行.
+
+[ 2015-04-19T23:01:10+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'wwwwwwwwwwww' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-19T23:04:13+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+
+[ 2015-04-19T23:04:49+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105778' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2015-04-19T23:05:02+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'wwwwwwwwwwww' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('wwwwwwwwwwww','d215773c2c1f9abba0b67d6bdccdc139f9d6fbe0','15105105778','0') [ RunTime:0.0576s ]
+
+[ 2015-04-19T23:43:51+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+
+[ 2015-04-19T23:43:58+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-04-19T23:44:08+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+
+[ 2015-04-19T23:44:11+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105778' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-04-19T23:44:18+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105776' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2015-04-19T23:44:19+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105776' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2015-04-19T23:44:20+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105776' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000123s ]
+
+[ 2015-04-19T23:44:20+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105776' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-04-19T23:44:22+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105776' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2015-04-19T23:44:24+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105776' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000123s ]
+
+[ 2015-04-19T23:44:26+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105776' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2015-04-19T23:44:47+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15105105776' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2015-04-19T23:44:57+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'XWQD' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('XWQD','55c100ba37d2df35ec1e5f5d6302f060387df6cc','15105105776','0') [ RunTime:0.0630s ]
+
+[ 2015-04-19T23:47:42+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15103105777' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2015-04-19T23:47:52+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'GRSDVA' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('GRSDVA','200747f8066dab8437ca50a1d9a28ee95ee34a98','15103105777','0') [ RunTime:0.0696s ]
+
+[ 2015-04-19T23:48:48+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'GRSDVA' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-19T23:50:24+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'GRSDVAG' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0004s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','SELECT * FROM `user` WHERE `user_name` = \'GRSDVAG\' LIMIT 1  ') [ RunTime:0.0592s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('GRSDVAG','200747f8066dab8437ca50a1d9a28ee95ee34a98','15103105777','0') [ RunTime:0.0332s ]
+
+[ 2015-04-19T23:52:04+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'GRSDVAGj' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0004s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark01') [ RunTime:0.0682s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark05') [ RunTime:0.0439s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('GRSDVAGj','200747f8066dab8437ca50a1d9a28ee95ee34a98','15103105777','0') [ RunTime:0.0661s ]
+
+[ 2015-04-19T23:52:55+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark0c2') [ RunTime:0.0701s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'GRSDVAGje' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark01') [ RunTime:0.0426s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark05') [ RunTime:0.0442s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('GRSDVAGje','200747f8066dab8437ca50a1d9a28ee95ee34a98','15103105777','0') [ RunTime:0.0441s ]
+
+[ 2015-04-19T23:53:27+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0007s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','sss') [ RunTime:0.0571s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark0c2') [ RunTime:0.0329s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'GRSDVAGjess' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark01') [ RunTime:0.0316s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark05') [ RunTime:0.0329s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('GRSDVAGjess','200747f8066dab8437ca50a1d9a28ee95ee34a98','15103105777','0') [ RunTime:0.0329s ]
+
+[ 2015-04-19T23:54:35+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0009s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','ssdddds') [ RunTime:0.0600s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','sss') [ RunTime:0.0325s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark0c2') [ RunTime:0.0329s ]
+
+[ 2015-04-19T23:55:25+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','ssdddds') [ RunTime:0.0562s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','sss') [ RunTime:0.0332s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark0c2') [ RunTime:0.0332s ]
+
+[ 2015-04-19T23:57:14+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15103105777' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-19T23:57:23+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15103105727' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000142s ]
+
+[ 2015-04-19T23:57:35+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0008s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','sss') [ RunTime:0.0537s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark0c2') [ RunTime:0.0328s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'GRSDVAGjdess' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark01') [ RunTime:0.0307s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark05') [ RunTime:0.0330s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('GRSDVAGjdess','200747f8066dab8437ca50a1d9a28ee95ee34a98','15103105727','0') [ RunTime:0.0328s ]
+
+[ 2015-04-19T23:58:07+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15103105721' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+
+[ 2015-04-19T23:58:18+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0009s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','sss') [ RunTime:0.0593s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark0c2') [ RunTime:0.0329s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'GRSDVAGjdessd' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark01') [ RunTime:0.0535s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark05') [ RunTime:0.0329s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('GRSDVAGjdessd','200747f8066dab8437ca50a1d9a28ee95ee34a98','15103105721','0') [ RunTime:0.0329s ]
+
+[ 2015-04-19T23:59:31+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/id_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15102105777' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000187s ]
+
+[ 2015-04-19T23:59:41+08:00 ] 127.0.0.1 /flower/index.php/Home/Index/userRegister.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `error_message` [ RunTime:0.0012s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','sss') [ RunTime:0.0564s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark0c2') [ RunTime:0.0332s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'ddddddddas' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark01') [ RunTime:0.0314s ]
+SQL: INSERT INTO `error_message` (`error_page`,`error_message`) VALUES ('/var/www/html/flower','mark05') [ RunTime:0.0330s ]
+SQL: INSERT INTO `user` (`user_name`,`password`,`phone`,`user_type`) VALUES ('ddddddddas','d36da3e6884f6d1e9e7983ff13e99cf5c8f5745a','15102105777','0') [ RunTime:0.0330s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'ddddddddas' AND `password` = 'd36da3e6884f6d1e9e7983ff13e99cf5c8f5745a' LIMIT 1   [ RunTime:0.0005s ]
+

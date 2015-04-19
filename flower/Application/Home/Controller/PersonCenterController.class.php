@@ -16,7 +16,12 @@ class PersonCenterController extends Controller {
 		$personData			=	M('personal_data');
 		$limit['artist']			=	$array['artist_id'];
 		$blog				=	$personData->where($limit)->find();
-		//博客显示还未写
+		//博客
+		$condition['artist']		=	session('user_id');
+		$Person 			=	M('personal_data');
+		$result 				=	$Person->where($condition)->find();
+		$array['blog']			=	$result['content'];
+		//
 		$this->assign($array);
 		$this->display();
 	}
@@ -55,9 +60,11 @@ class PersonCenterController extends Controller {
 	public function showServerArea(){
 		$array				=	getMessage();
 		$serviceArea			=	M('service_area');
+		//blog
 		$limit['artist']			=	$data['artist_id'];
-		$blog				=	$serviceArea->where($limit)->find();
-		////博客显示还未写
+		$result				=	$serviceArea->where($limit)->find();
+		$array['blog']			=	$result['area'];
+		//
 		$this->assign($array);
 		$this->display();
 		
@@ -123,3 +130,117 @@ class PersonCenterController extends Controller {
 		}
 		return $array;
 	}
+	//上传实名认证照片
+	public function ident(){
+	          $action_result 	=	array('flag' => 0);
+	          $user_type	=	session('user_type');
+	          $User 	   	=	M('user');
+	          $limit['user_id']	=	session('user_id');
+	          $result 		=	$User->where($limit)->find();
+	          if($result['is_sure']==1){
+	          	return 0;
+	          }
+	          if($user_type	!=	1){
+			echo "<script language=javascript>alert('不合法操作!');</script>"
+			$this->redirect('/Index/index');
+	           }
+	          $upload 		    = new \Think\Upload();// 实例化上传类
+	          $upload->maxSize   =     3145728 ;// 设置附件上传大小
+	          $upload->exts     	   =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+	          $upload->rootPath  =      './Uploads/'; // 设置附件上传根目录
+	           // 上传单个文件 
+	          $info   		   =   $upload->uploadOne($_FILES['photo1']);
+	          if(!$info) {// 上传错误提示错误信息
+	                       $this->error($upload->getError());
+	           }else{// 上传成功 获取上传文件信息
+	                    $name 	   		=	$info['savename'];
+	                    
+	                    $condition['user_id']		=	session('user_id');
+	                    $data['id_photo']		=	$name;
+	                    $result 			=	$User->where($condition)->save($data);
+	                    if($result){
+	                    	$this->redirect('PersonCenter/index');
+	                    }else{
+	                    	$this->error();
+
+	                    }
+	           }
+              }
+              //编辑服务区域
+              public function editAddress(){
+             	          $action_result 	=	array('flag' => 0);
+                        $user_type	=	session('user_type');
+	          if($user_type	!=	1){
+			echo "<script language=javascript>alert('不合法操作!');</script>"
+			$this->redirect('/Index/index');
+	           }
+	           $data['area']		=	I('post.blog');
+	           $condition['artist']	=	session('user_id');
+	           $ServiceArea 	   	=	M('service_area');
+	           $result 			=	$ServiceArea->where($condition)->save($data);
+	           if($result){
+	                    $this->ajaxReturn($action_result);
+	            }else{
+	            	      $action_result 	=	array('flag' => 1);
+	                    $this->ajaxReturn($action_result);
+
+
+	             }
+
+              }
+              //编辑个人资料
+              public function editData(){
+             	          $action_result 	=	array('flag' => 0);
+                        $user_type	=	session('user_type');
+
+	          if($user_type	!=	1){
+			echo "<script language=javascript>alert('不合法操作!');</script>"
+			$this->redirect('/Index/index');
+	           }
+
+	           $data['area']		=	I('post.blog');
+	           $condition['artist']	=	session('user_id');
+	           $PersonalData 	   	=	M('personal_data');
+	           $result 			=	$PersonalData->where($condition)->save($data);
+	           if($result){
+	                    $this->ajaxReturn($action_result);
+	            }else{
+	            	      $action_result 	=	array('flag' => 1);
+	                    $this->ajaxReturn($action_result);
+
+
+	             }
+ 
+              }
+
+              //
+              public function uploadCover(){
+                        $action_result 	=	array('flag' => 0);
+	          $user_type	=	session('user_type');
+	          if($user_type	!=	1){
+			echo "<script language=javascript>alert('不合法操作!');</script>"
+			$this->redirect('/Index/index');
+	           }
+	          $upload 		    = new \Think\Upload();// 实例化上传类
+	          $upload->maxSize   =     3145728 ;// 设置附件上传大小
+	          $upload->exts     	   =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+	          $upload->rootPath  =      './Uploads/'; // 设置附件上传根目录
+	           // 上传单个文件 
+	          $info   		   =   $upload->uploadOne($_FILES['photo1']);
+	          if(!$info) {// 上传错误提示错误信息
+	                       $this->error($upload->getError());
+	           }else{// 上传成功 获取上传文件信息
+	                    $name 	   		=	$info['savename'];
+	                    $User 	   		=	M('user');
+	                    $condition['user_id']		=	session('user_id');
+	                    $data['photo']		=	$name;
+	                    $result 			=	$User->where($condition)->save($data);
+	                    if($result){
+	                    	$this->redirect('PersonCenter/index');
+	                    }else{
+	                    	$this->error();
+
+	                    }
+	           }
+              }
+}
