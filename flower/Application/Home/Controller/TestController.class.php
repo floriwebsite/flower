@@ -13,4 +13,8 @@ class TestController extends Controller {
     public function index(){
         $this->display();
     }
+    public function index2(){
+    	$xx	=	I('post.myEditor');
+    	echo $xx;
+    }
 }
