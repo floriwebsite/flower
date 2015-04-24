@@ -15,6 +15,9 @@ class TestController extends Controller {
     }
     public function index2(){
     	$xx	=	I('post.myEditor');
+    	$jj	=	I('post.ni');
     	echo $xx;
+    	echo $jj;
+    	
     }
 }
